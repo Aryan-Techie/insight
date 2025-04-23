@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Insight by AROICE
 ---
 
 This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+# Work in progress
+<!-- 
+See the [documentation](https://quartz.jzhao.xyz) for how to get started. -->
