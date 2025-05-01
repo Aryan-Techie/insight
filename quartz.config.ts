@@ -8,13 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Insight",
+    pageTitleSuffix: " • Insight",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { 
+      provider: 'google', tagId: 'G-1EB8P0SHVS' },
     locale: "en-US",
     baseUrl: "https://insight.aroice.in",
     ignorePatterns: ["private", "templates", ".obsidian"],
