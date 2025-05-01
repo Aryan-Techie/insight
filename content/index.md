@@ -2,7 +2,6 @@
 title: Welcome to Insight by AROICE
 ---
 
-This is a blank Quartz installation.
 
 # Work in progress
 <!-- 

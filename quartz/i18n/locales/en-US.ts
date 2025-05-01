@@ -48,7 +48,7 @@ export default {
     },
     search: {
       title: "Search",
-      searchBarPlaceholder: "Search for something",
+      searchBarPlaceholder: "What are you looking for?",
     },
     tableOfContents: {
       title: "Table of Contents",

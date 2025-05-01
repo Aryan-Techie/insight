@@ -15,16 +15,16 @@ const config: QuartzConfig = {
     analytics: { 
       provider: 'google', tagId: 'G-1EB8P0SHVS' },
     locale: "en-US",
-    baseUrl: "https://insight.aroice.in",
+    baseUrl: "insight.aroice.in",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Spectral",
+        body: "Lora",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
