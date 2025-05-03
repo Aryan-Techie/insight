@@ -1,59 +1,70 @@
 ---
-title: "Insight"
-description: "Exploring ideas, systems, and the pursuit of clarity in a noisy world."
-layout: post
-showBacklinks: false
-showGraph: false
-showToc: false
-icon: "🧠"
-categories: ["Philosophy", "Systems", "Mental Models"]
-keywords: ["clarity", "purpose", "thinking"]
+title: Welcome to Insight
+description: Insights into tech, systems, and intentional living. Read. Think. Build.
 ---
 
 
-
-```poetry
-
-Welcome, Aryan Here :)
-```
-
-# Insight: Clarity Through Thought
-
-> "In a world full of noise, silence speaks the loudest."
-
-Welcome to **Insight**, a place where the mind untangles the complex, explores mental models, and challenges the status quo. Here, you’ll find deep reflections on philosophy, systems thinking, and the pursuit of clarity.
+> **Distilling clarity in a world of noise.**  
+> A digital garden by [@realaroice](https://x.com/realaroice) exploring systems, tools, and thoughts for living and building with intent.
 
 ---
 
-## 🔍 Featured Ideas
+<!-- start:featured -->
+> [!important] Featured 
+ > ## [Get Epic Shit Done!](/posts/GET%20EPIC%20SHIT%20DONE%21)
+ > The book is divided into 4 parts and in total, it has 36 chapters or you can say, it answered the 36 questions.
+  > 👉 [Read more →](/posts/GET%20EPIC%20SHIT%20DONE%21)
+<!-- end:featured -->
 
-- **Philosophy**: The foundation of intentional living, questioning reality, and the nature of existence.
-- **Mental Models**: Essential frameworks to navigate decision-making and critical thinking.
-- **Systems Thinking**: Understanding complexity and making sense of chaos in the modern world.
+
+<!-- start:recent -->
+> [!abstract] Recent Posts
+ > - [the-hidden-power-of-stillness](/posts/the-hidden-power-of-stillness)
+ > - [The Hidden Power of Stillness](/posts/the-hidden-power-of-stillness)
+ > - [Deep Work vs Flow](/posts/deep-work)
+ > - [The Power of Systems Thinking](/posts/the-power-of-systems-thinking)
+ > - [People change when they ...](/posts/people-change-when-they-...)
+<!-- end:recent -->
+---
+
+## 📚 Explore by Topics
+
+- 🧠 **Thinking Tools** – Models for better decision-making.
+- ⚙️ **Systems & Productivity** – Frameworks to work smarter.
+- 💻 **Tech & Code** – From tools to workflows.
+- ✒️ **Philosophy** – Questions that matter.
+- 🗃️ [**All Posts →**](/posts)
 
 ---
 
-## 📝 Recent Thoughts
+## 🛠️ What is Insight?
 
-Here are some of the latest ideas I’ve shared:
+Insight is a journal, not a newsletter.  
+It’s a space for slow ideas — distilled over time, meant to be reread, referenced, and built upon.
 
-{{#recent_posts 5}} 
-- [[{{title}}]] - {{date}}
-{{/recent_posts}}
+- No noise. No FOMO. No dopamine hooks.
+- Just thoughts worth your time.
 
-> *Want to dive deeper into any of these? Explore the full collection below or search for a specific topic.*
-
-
----
-
-## 📬 Newsletter
-
-Stay up to date with my latest thoughts and posts. [Sign up here](https://example.com/newsletter) for **weekly insights** straight to your inbox.
+> “Clarity is the result of conscious subtraction.” — Insight Philosophy
 
 ---
 
-**Everything you see here is meant to provoke thought.** This space is for those who want to question the world, challenge assumptions, and live with purpose.
+## 📬 Subscribe
+
+Get new essays delivered straight to your inbox.  
+No spam, no noise. Just insight.
+
+[Subscribe →](https://buttondown.email/insight)
 
 ---
 
-Peace!
+## 🔗 Elsewhere
+
+- 🧠 Main Site: [aroice.in](https://aroice.in)
+- ✍️ Blog Archive: [insight.aroice.in/posts](https://insight.aroice.in/posts)
+- 🎥 YouTube: [@Aroice](https://youtube.com/@Aroice)
+- 🧵 Twitter: [@realaroice](https://x.com/realaroice)
+
+---
+
+> Built with 🧠 Quartz, 🤖 Automation, and ✍️ Intention.

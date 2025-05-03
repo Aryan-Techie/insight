@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>GET EPIC SHIT DONE! • AROICE</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&amp;family=Lora:ital,wght@0,400;0,600;1,400;1,600&amp;family=Fira Code:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Insight"/><meta property="og:title" content="GET EPIC SHIT DONE! • AROICE"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="GET EPIC SHIT DONE! • AROICE"/><meta name="twitter:description" content="Quote “The only person you need to be better than is the person you were yesterday.” Focuses on self-growth and progress, rather than comparing oneself to others."/><meta property="og:description" content="Quote “The only person you need to be better than is the person you were yesterday.” Focuses on self-growth and progress, rather than comparing oneself to others."/><meta property="og:image:alt" content="Quote “The only person you need to be better than is the person you were yesterday.” Focuses on self-growth and progress, rather than comparing oneself to others."/><meta property="twitter:domain" content="insight.aroice.in"/><meta property="og:url" content="https://insight.aroice.in/posts/GET-EPIC-SHIT-DONE!"/><meta property="twitter:url" content="https://insight.aroice.in/posts/GET-EPIC-SHIT-DONE!"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Quote “The only person you need to be better than is the person you were yesterday.” Focuses on self-growth and progress, rather than comparing oneself to others."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiRTpcXEluc2lnaHRcXHF1YXJ0elxcY29tcG9uZW50c1xcc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBhZGRpbmc6IDJyZW07XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://insight.aroice.in/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://insight.aroice.in/posts/GET-EPIC-SHIT-DONE!-og-image.webp"/><meta property="og:image:url" content="https://insight.aroice.in/posts/GET-EPIC-SHIT-DONE!-og-image.webp"/><meta name="twitter:image" content="https://insight.aroice.in/posts/GET-EPIC-SHIT-DONE!-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="posts/GET-EPIC-SHIT-DONE!"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Insight</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="What are you looking for?" placeholder="What are you looking for?"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" class="readerIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="1"></rect><line x1="9" y1="8" x2="15" y2="8"></line><line x1="9" y1="12" x2="15" y2="12"></line><line x1="9" y1="16" x2="13" y2="16"></line></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../posts/">posts</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>GET EPIC SHIT DONE!</a></div></nav><h1 class="article-title">GET EPIC SHIT DONE!</h1><p show-comma="true" class="content-meta"><time datetime="2025-05-02T14:15:12.443Z">May 02, 2025</time><span>15 min read</span></p><ul class="tags"><li><a href="../tags/books" class="internal tag-link">books</a></li></ul></div></div><article class="popover-hint"><hr/>
+<p><img src="../media/Pasted-image-20241103124931.png" width="150" height="auto" alt/></p>
+<blockquote class="callout tip" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Quote </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ul>
+<li>
+<p><strong>“The only person you need to be better than is the person you were yesterday.”</strong></p>
+<ul>
+<li>Focuses on self-growth and progress, rather than comparing oneself to others.</li>
+</ul>
+</li>
+</ul>
+</div>
+</blockquote>
+<blockquote class="callout success" data-callout="success">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Quote </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ul>
+<li>
+<p><strong>“Discipline is choosing between what you want now and what you want most.”</strong></p>
+<ul>
+<li>Emphasizes the power of self-control and prioritizing long-term aspirations over immediate gratification.</li>
+</ul>
+</li>
+</ul>
+</div>
+</blockquote>
+<blockquote class="callout danger" data-callout="danger">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Quote </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ul>
+<li>
+<p><strong>“Perfection is the enemy of progress.”</strong></p>
+<ul>
+<li>A reminder that waiting for things to be perfect can hold you back from making real strides forward.</li>
+</ul>
+</li>
+</ul>
+</div>
+</blockquote>
+<h3 id="key-takeaways">Key Takeaways<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-takeaways" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>Take Action Over Planning</strong>:</p>
+<ul>
+<li>Stop overthinking and start taking action. You don’t need to have everything figured out to make progress.</li>
+</ul>
+</li>
+<li>
+<p><strong>Self-Awareness is Key</strong>:</p>
+<ul>
+<li>Knowing yourself—your strengths, weaknesses, and passions—is essential for making meaningful life choices.</li>
+</ul>
+</li>
+<li>
+<p><strong>Embrace Failure as Learning</strong>:</p>
+<ul>
+<li>Failures and mistakes are stepping stones to success. Learn from them and adapt, instead of fearing them.</li>
+</ul>
+</li>
+<li>
+<p><strong>Set Goals and Break Them Down</strong>:</p>
+<ul>
+<li>Break down big goals into smaller, achievable tasks. Consistent small steps add up over time.</li>
+</ul>
+</li>
+<li>
+<p><strong>Focus on Consistency, Not Perfection</strong>:</p>
+<ul>
+<li>Aim to show up every day, even if it’s not perfect. Consistency beats sporadic perfection.</li>
+</ul>
+</li>
+<li>
+<p><strong>Prioritize What Matters</strong>:</p>
+<ul>
+<li>Say “no” to distractions and focus on things that align with your goals and values.</li>
+</ul>
+</li>
+<li>
+<p><strong>Invest in Yourself</strong>:</p>
+<ul>
+<li>Continuous learning and self-improvement are crucial. Read, reflect, and upskill.</li>
+</ul>
+</li>
+<li>
+<p><strong>Build a Support System</strong>:</p>
+<ul>
+<li>Surround yourself with people who encourage and support your growth.</li>
+</ul>
+</li>
+<li>
+<p><strong>Manage Your Time Wisely</strong>:</p>
+<ul>
+<li>Time is your most valuable asset. Prioritize tasks that have long-term benefits.</li>
+</ul>
+</li>
+<li>
+<p><strong>Embrace the Process</strong>:</p>
+<ul>
+<li>Success is a journey. Enjoy the process, and don’t be solely fixated on the end goal.</li>
+</ul>
+</li>
+<li>
+<p><strong>Control Your Mindset</strong>:</p>
+<ul>
+<li>A positive mindset is a powerful tool. Practice gratitude, resilience, and focus on growth.</li>
+</ul>
+</li>
+<li>
+<p><strong>Reflect Regularly</strong>:</p>
+<ul>
+<li>Regular reflection helps you understand your progress, reassess your goals, and realign with your purpose.</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<hr/>
+<p>The book is divided into 4 parts and in total, it has 36 chapters or you can say, it answered the 36 questions.</p>
+<ul>
+<li><strong>PART 1:</strong> Managing Your Life</li>
+<li><strong>PART 2:</strong> Managing Career</li>
+<li><strong>PART 3:</strong> Managing People</li>
+<li><strong>PART 4:</strong> Managing Yourself</li>
+</ul>
+<p>Each part of the book tries to guide you toward the right path, the author doesn’t give you a proper answer but when you finish the book, you will able to see through the problem.</p>
+<p>For example,</p>
+<ul>
+<li>How Do I Manage My Time?</li>
+<li>How Can I Forgive My Parents?</li>
+<li>How Do I Pick the Right Career?</li>
+<li>How Can I Have a Sleep Routine?</li>
+</ul>
+<p>Long Story Short, Ankur Warikoo will give you answers to each of the 36 questions. Here, I have only added 4 questions which I have picked from 4 parts.</p>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-33-1024x576.jpg" alt/></p>
+<p>About the book format, just see the above images. The teacher is of course the Ankur Warikoo while the student is YOU who is reading the book.</p>
+<h3 id="how-do-i-build-my-communication-skills">How Do I Build My Communication Skills<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-build-my-communication-skills" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-1-Part-1024x576.jpg" alt/></p>
+<p>On average every day human brain generates about 70,000 thoughts, now think for a second, how you can choose what to speak when you go for your first public speech.</p>
+<p>The <strong>first step</strong> you have to do is, write your speech but why?</p>
+<p>When you write whether it’s your speech or journal, your brain will only select the important words, and the rest will be thrown into the garbage can.</p>
+<p>In short, when you write every day, your thoughts get structured and next time, you will only write what is needed and it will save hall lot of time.</p>
+<p>The <strong>second step</strong> would be to go on stage and perform but before that, you have to practice.</p>
+<p>Here, Ankur Warikoo has given a little tip which is, to record yourself for a minute for 365 days.</p>
+<p>On the first day, you might forget what to say or you might fumble but when you do the same thing again and again, your speech will improve.</p>
+<p>Just record yourself for a year and compared the videos from the 1st to the 365th day, you will see how long you have come.</p>
+<p>The <strong>third and last step</strong> is,</p>
+<p>Copy your favorite public speaker, watch their videos, and see how they do when they’re on stage, how they speak, walk, hand gestures, and even how they sit on a chair.</p>
+<p>Now the <strong>final thing</strong> is to go on stage and give your 110%. You will make mistakes, and you might forget one or two things but when you start going on stage, you will get better at it, day by day.</p>
+<h3 id="how-do-i-make-tough-decisions-in-life">How Do I Make Tough Decisions in Life<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-make-tough-decisions-in-life" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-4-1024x576.jpg" alt/></p>
+<p>Let’s say, you want to start a Website and you’re thinking, what if I didn’t make money, and what if no one reads my article?</p>
+<p>Now do one thing,</p>
+<p>Imagine, what worst thing can happen, if I make a website?</p>
+<p>The worst scenario could be, you won’t get views, you won’t earn money and you might have to close the website.</p>
+<p>The best scenario could be, you will get a view, you will earn money and your website might see success.</p>
+<p>Now, ask yourself, are you ready to face consequences if the answer is <strong>YES then go ahead, and if NO then why</strong>?</p>
+<p>So instant of thinking about the same thing again and again, just write down the worst and best scenarios and then figure out, what to do and what not to do.</p>
+<h3 id="how-do-i-manage-my-time">How Do I Manage My Time<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-manage-my-time" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>You know we talked about Ankur Warikoo’s time management course (Take Charge Of Your Time), yes, that Rs 399 course has been added to the Get Epic Shit Done book.</p>
+<p>Here are some of the key ideas on how you can save time.</p>
+<p><strong>Important task:</strong> These could be those task which doesn’t need your attention but are important, again, you don’t have to do them right away. </p>
+<p>For example,</p>
+<p>You have to go to the supermarket because you have a list of items which you have to buy for your home, this is important because you need those items but it’s not very urgent, so you can do it after some time.</p>
+<p><strong>Urgent Task</strong>: These are those tasks that require your attention right away. </p>
+<p>For example,</p>
+<p>You need to finish the project which your boss has given, you have a meeting that is very important for your business, or something else that is needed to do right away.</p>
+<p><strong>Nor Urgent or Important Task:</strong> These are those tasks that are not important or urgent but you like doing them.</p>
+<p>For example,</p>
+<p>You want to watch movies, and TV shows, go to parties, spend time with your friends, use social media, and many more. You don’t have to do all these things but you like doing them because it makes you happy.</p>
+<p>It’s a simple thing, just ask yourself which tasks are important and which are not this way, you will save lots of time and the saved time can be used for the impotent tasks.</p>
+<h3 id="meditation-does-not-make-your-control-your-emotions">Meditation Does Not Make Your Control Your Emotions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#meditation-does-not-make-your-control-your-emotions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-10-1024x576.jpg" alt/></p>
+<p>Here, how I meditate, (Ankur Warikoo has given the same technique which I have written below)</p>
+<p>When I wake up in the morning, I usually sit for 20 to 30 minutes alone in my room, I just observe my thoughts, I don’t ask questions, I don’t try to solve anything, I just become an observer for 20 to 30 minutes.</p>
+<p>I do get lots of thoughts about my work, how life is going, and many others.</p>
+<p>So when you meditate for the first time, be an observer, don’t try to solve the problem, don’t ask any questions, just see and let go of every thought for 20 to 30 minutes whether its about money, job, business, p<em>rn, s</em>x or anything else.</p>
+<p>Long story short, <strong>Meditation doesn’t control your emotions but it makes you aware of your emotions.</strong></p>
+<h3 id="how-do-i-find-my-passion">How Do I Find My Passion<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-find-my-passion" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>Have you heard of Ikigai, the same concept has been added by Ankur Warikoo in this chapter.</p>
+<p>Ikigai simply means “What is it that you love doing”, for example,</p>
+<p>I love to write, further, I know how to write, further, I can also make money from writing.</p>
+<p>So find what you love doing and see whether you’re good at it or not.</p>
+<p>The author has also given you an example,</p>
+<p>Let’s say, you love to read but no one will give you money for reading. On the other hand, if you review books then you will earn money by writing about books on your website or making YouTube Channel.</p>
+<p><strong>4-step to find your passion,</strong></p>
+<ol>
+<li>What makes you happy?</li>
+<li>What am I good at?</li>
+<li>What does the world need?</li>
+<li>How can I make money from it?</li>
+</ol>
+<h3 id="how-do-i-pick-the-right-career">How Do I Pick the Right Career?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-pick-the-right-career" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>First things first, never do a job or business because your friends are doing it or you show someone else’s business. You’re you, don’t try to live someone else’s dream, instant, go chase your dream.</p>
+<p><strong>What Not to Do,</strong></p>
+<p>Don’t quit your job to start a business or change the job because you don’t like doing it. The reason is simple, you don’t know whether you will get a better job that pays more or you might not even get a job that pays the same as the last one.</p>
+<p><strong>What to Do,</strong></p>
+<p>Don’t quit your job, keep doing it. Now, what else you can do is, try different things when you have time, you can try when you come home after job, on weekends, or on holiday and see, what works and what doesn’t.</p>
+<p>Just don’t give an excuse that I don’t have time because everything has time, limited time but everyone has.</p>
+<h3 id="how-can-i-build-multiple-income-stream">How Can I Build Multiple Income Stream<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-can-i-build-multiple-income-stream" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>The simple answer is, first, make a stable income source where you can get money every month, no matter what happens. It could be a job or anything else.</p>
+<p>Once that’s done, try to do different things.</p>
+<p>For example, how <a href="https://bookiestalk.com/tag/Austin-Kleon" class="external">Austin Kleon<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> author of <a href="https://bookiestalk.com/show-your-work-book-summary/" class="external">Show Your Work<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> said,</p>
+<p>Make a website about the things you love without expecting anything in return. Just keep writing and the day will come when you will earn money from your website.</p>
+<p>So the website could be your 2nd income stream, the third could be from stock market investment and the fourth could be from your YouTube Channel.</p>
+<p>Try to do as little as possible and try to make time for each thing, the result will come, you just have to be consistent.</p>
+<h3 id="how-do-i-convince-my-parents-about-my-career-choices">How Do I Convince My Parents About My Career Choices<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-convince-my-parents-about-my-career-choices" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>Whether it’s your mother or father, they love you unconditionally, it’s just that, they’re from a different century, so they will have a different point of view but the end goal of your parents and yours is to live a happy and stable life.</p>
+<p>The road map to reach a happy and stable life could be different from your point of view and your parents.</p>
+<p>For them, you should get an Engineer, Doctor, or CA degree because that’s what their parents taught them and they will tell you to do the same.</p>
+<p>Now, if you want to become a YouTuber, Blogger, or start a business then first, show them how you gonna do it or better, if one of your friends is running a business then bring him to your home and let your parent ask questions.</p>
+<p>Even after that, if your parent doesn’t agree with your goals then the final step is to ask for time,</p>
+<p>Told them <em>“Give</em> me 2 years’ time” and let me prove to you that, I will do it, and if after 2 years, I fail then I will do whatever you’re asking me to do.</p>
+<p><strong>the story,</strong></p>
+<p>I started my website when I was doing B.com, I didn’t say anything to my mother about the website till I completed the three years and then my mother asked me, what you will do next, M.com or Job?</p>
+<p>That day, I said to her, I’m working on my website for the last three years and she said, everything is okay but how you will earn money from it, and who will give you money for just writing?</p>
+<p>The same day, I give her money that I earn from my first website and that was the day when she said, if you love what you’re doing then do it.</p>
+<p>Now, why did my mother say “If you love what you’re doing then do it.” the reason was simple, she felt that my son has a job and he is earning good money.</p>
+<p>Also, she did ask a few of our relatives about what I do and whether it’s secured or not. Turned out, everyone said, your son knows what he is doing (lucky me).</p>
+<p>On the opposite, If I wasn’t earning money, she could have said NO but that didn’t happen, so I don’t know what would have happened. (I mentioned my mother only because my father died when I was 5 years old).</p>
+<p>I will add more stories to my book, just like how Ankur Warikoo did with his first book, <a href="https://bookiestalk.com/do-epic-shit-book-summary/" class="external">Do Epic Shit<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (wink, wink).</p>
+<h3 id="how-can-i-forgive-my-parents">How Can I Forgive My Parents<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-can-i-forgive-my-parents" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" alt/></p>
+<p>I will repeat the same thing,</p>
+<p>Your mother or father loves you unconditionally, it’s just that, they’re from a different century, so they will have a different mindset, they first wanted a stable lifestyle, and later they want to build a relationship because that’s what they show when they were children.</p>
+<p>You may have experienced that when your father was 30 years old or 25 years old, he was a busy guy, not spending time with family, and working as much as he can.</p>
+<p>Jump to when he was 40 years old, now, he has earned money, he is not working all the time and he is trying to spend time with you. Here, you might feel, what happened suddenly?</p>
+<p><strong>What to Do?</strong></p>
+<p>Forgive Your Father and spend time with him because now, he feels, he has delivered a stable life to his family.</p>
+<p>Now your duty to give him what he wants because he has worked for decades, so his family can live a better life.</p>
+<p>For him, working for days to make money and give stable life to his family was his goal because that’s what he learned from his parents.</p>
+<p><strong>What Not to Do?</strong></p>
+<p>Don’t ignore your parents.</p>
+<h3 id="how-do-i-develop-patience">How Do I Develop Patience<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-develop-patience" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-30-1024x576.jpg" alt/></p>
+<p>Your father and Mother have more Patience than you because, in their time, they didn’t have the one-day Amazon Delivery or even a Food Delivery Website.</p>
+<p>In their time, they had to travel for a day to visit another place and they didn’t have the smartphone to do video calls with a single click.</p>
+<p>Long story short, your parent knew from the beginning what is Patience, and you were born with all these tech gadgets &amp; one-day Amazon Delivery.</p>
+<p>So no one taught you anything about Patience,</p>
+<p>Now, to be a Patience person, do this…</p>
+<p>If you want to buy a new smartphone then wait for 30 days and after 30 days, ask yourself whether you need a new smartphone or if you’re okay with what you have.</p>
+<p>Just understand your brain, when it craves and when it doesn’t.</p>
+<p>The same can be said when you’re hungry, ask yourself, whether you want to order from the website or not. Wait for 30 minutes and see.</p>
+<p>There is no other way around it, <strong>you have to start somewhere, so start by saying no to sugar, if you want to lose weight.</strong></p>
+<h3 id="how-can-i-have-a-sleep-routine">How Can I Have a Sleep Routine?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-can-i-have-a-sleep-routine" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="https://bookiestalk.com/wp-content/uploads/2022/12/Get-Epic-Shit-Done-Chapter-31-1024x576.jpg" alt/></p>
+<p>The human brain doesn’t like a huge change, after a day or two, the brain will convince you to go back to the previous Routine if you make a huge jump.</p>
+<p>For example, if you’re drinking Coffee for five years then it will be hard to quit coffee but if you reduce the coffee intake by a small every day for 30 days then one day, you will quit coffee.</p>
+<p>The reason is simple, your brain won’t notice very small changes but if you don’t drink coffee for the next three days then your brain will give you lots of reasons why you should now drink coffee.</p>
+<p>In the same way, if you’re waking up at 8:00 AM every day for a long time then now, if you want to wake up at 5:00 AM then don’t try to wake up at 5:00 AM suddenly.</p>
+<p>First, try to wake up at 7:45 AM then 7:30 AM, and just like then keep going down for months and after some time, your brain will adopt the change.</p>
+<p><strong>Just don’t try to wake-Up at 5:00 AM suddenly, the reason is simple, it may work for a week but after that, you will come back to square one.</strong></p>
+<p>Just like, what <a href="https://bookiestalk.com/tag/James-Clear" class="external">James Clear<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> said in his book, <a href="https://bookiestalk.com/atomic-habits-summary/" class="external">Atomic Habits<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, try to improve by 1% every day.</p>
+<h3 id="how-do-i-build-good-habits">How Do I Build Good Habits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-do-i-build-good-habits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Our brain doesn’t want to spend much energy but still wants to make us happy.</p>
+<p>For example, we all watch Reals or Shorts Videos on YouTube because that’s what releases dopamine, we drink coffee that also releases dopamine, we watch P*rn which also releases dopamine, and we also watch someone else’s life (on YouTube–Vlogs).</p>
+<p>In the same way, if you want to build an Exercise habit then don’t do exercise for an hour on the first day…</p>
+<p>On the first day, only exercise for 10 to 15 minutes. With the same formula, our brain won’t notice small changes easily.</p>
+<p>Do the exercise for 10 minutes for 30 days and after that, you will automatically increase the exercise time.</p>
+<p>Just don’t think about, what will happen in 10 minutes. That 10 minutes will play an important part after 30 days.</p>
+<p><strong>1% every day for a year is better than 0% every day for a year.</strong> Make a small change and stick to it.</p>
+<h2 id="get-epic-shit-done-quotes">Get Epic Shit Done Quotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#get-epic-shit-done-quotes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>“Parents seeking stability for your career is not about them going against you. It is about them being scared of an unstable life.” – <strong>Ankur Warikoo</strong></p>
+<p>“Habits that give big results start small. Because they are a consequence of pleasure, not pressure.” – <strong>Ankur Warikoo</strong></p>
+<p>“Writing daily is not just for writers. It is for communicators who wish to express themselves better.” – <strong>Ankur Warikoo</strong></p>
+<hr/></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul class="toc-content overflow" id="list-1"><li class="depth-1"><a href="#key-takeaways" data-for="key-takeaways">Key Takeaways</a></li><li class="depth-1"><a href="#how-do-i-build-my-communication-skills" data-for="how-do-i-build-my-communication-skills">How Do I Build My Communication Skills</a></li><li class="depth-1"><a href="#how-do-i-make-tough-decisions-in-life" data-for="how-do-i-make-tough-decisions-in-life">How Do I Make Tough Decisions in Life</a></li><li class="depth-1"><a href="#how-do-i-manage-my-time" data-for="how-do-i-manage-my-time">How Do I Manage My Time</a></li><li class="depth-1"><a href="#meditation-does-not-make-your-control-your-emotions" data-for="meditation-does-not-make-your-control-your-emotions">Meditation Does Not Make Your Control Your Emotions</a></li><li class="depth-1"><a href="#how-do-i-find-my-passion" data-for="how-do-i-find-my-passion">How Do I Find My Passion</a></li><li class="depth-1"><a href="#how-do-i-pick-the-right-career" data-for="how-do-i-pick-the-right-career">How Do I Pick the Right Career?</a></li><li class="depth-1"><a href="#how-can-i-build-multiple-income-stream" data-for="how-can-i-build-multiple-income-stream">How Can I Build Multiple Income Stream</a></li><li class="depth-1"><a href="#how-do-i-convince-my-parents-about-my-career-choices" data-for="how-do-i-convince-my-parents-about-my-career-choices">How Do I Convince My Parents About My Career Choices</a></li><li class="depth-1"><a href="#how-can-i-forgive-my-parents" data-for="how-can-i-forgive-my-parents">How Can I Forgive My Parents</a></li><li class="depth-1"><a href="#how-do-i-develop-patience" data-for="how-do-i-develop-patience">How Do I Develop Patience</a></li><li class="depth-1"><a href="#how-can-i-have-a-sleep-routine" data-for="how-can-i-have-a-sleep-routine">How Can I Have a Sleep Routine?</a></li><li class="depth-1"><a href="#how-do-i-build-good-habits" data-for="how-do-i-build-good-habits">How Do I Build Good Habits</a></li><li class="depth-0"><a href="#get-epic-shit-done-quotes" data-for="get-epic-shit-done-quotes">Get Epic Shit Done Quotes</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Made with ❤️ by <a href="https://aryan.aroice.in">Aryan Techie</a> © 2025 <a href="https://aroice.in" target="_blank">AROICE</a></p><ul><li><a href="https://x.com/aryantechie">•  X</a></li><li><a href="https://youtube.com/@aroice">•  YouTube</a></li><li><a href="https://instagram.com/aryantechie">•  Instagram</a></li></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../postscript.js" type="module"></script></html>

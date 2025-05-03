@@ -1,0 +1,20 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "cite": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "233, 151, 63"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

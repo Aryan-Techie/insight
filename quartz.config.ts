@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Insight",
-    pageTitleSuffix: " • Insight",
+    pageTitleSuffix: " • AROICE",
     enableSPA: true,
     enablePopovers: true,
     analytics: { 

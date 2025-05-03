@@ -1,3 +1,6 @@
+---
+featured: true
+---
 
 *People change* when they ... 
 

@@ -7,4 +7,6 @@
     url("biro_script_standard_us.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap; /* This helps with rendering */
+
 }

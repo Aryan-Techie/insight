@@ -4,6 +4,7 @@ Links: https://www.mediafire.com/file/rx500i3e78prj3n/GET_EPIC_SH%2AT_DONE_-_BOO
 tags:
   - books
 From: "[[Ankur Warikoo]]"
+featured: true
 ---
 ---
 
