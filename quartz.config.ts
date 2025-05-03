@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: { 
-      provider: 'google', tagId: 'G-1EB8P0SHVS' },
+      provider: 'google', tagId: 'G-1EB8P0SHVS' 
+    },
     locale: "en-US",
     baseUrl: "insight.aroice.in",
     ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
@@ -55,6 +56,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.Poetry(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),

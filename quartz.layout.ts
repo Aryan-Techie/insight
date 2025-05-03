@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       "•  X": "https://x.com/aryantechie",
       "•  YouTube": "https://youtube.com/@aroice",
       "•  Instagram": "https://instagram.com/aryantechie",
-      "•  Discord Community": "https://discord.gg/cEY3z9ejnA",
+      // "•  Discord Community": "https://discord.gg/cEY3z9ejnA",
     },
   }),
 }

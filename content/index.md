@@ -10,6 +10,13 @@ categories: ["Philosophy", "Systems", "Mental Models"]
 keywords: ["clarity", "purpose", "thinking"]
 ---
 
+
+
+```poetry
+
+Welcome, Aryan Here :)
+```
+
 # Insight: Clarity Through Thought
 
 > "In a world full of noise, silence speaks the loudest."
