@@ -69,7 +69,7 @@ def inject_featured_post():
                 break
 
 
-        featured_md = f"""> [!important] Featured \n > ## [{title}](/posts/{quote(slug)})\n > {excerpt}\n  > 👉 [Read more →](/posts/{quote(slug)})"""
+        featured_md = f"""> [!feat] Featured \n > ## [{title}](/posts/{quote(slug)})\n > {excerpt}\n  > [Read more →](/posts/{quote(slug)})"""
 
     pattern = re.compile(r"<!-- start:featured -->(.*?)<!-- end:featured -->", re.DOTALL)
     new_block = f"<!-- start:featured -->\n{featured_md}\n<!-- end:featured -->"

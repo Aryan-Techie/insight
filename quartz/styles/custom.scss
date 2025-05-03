@@ -8,3 +8,20 @@ pre.poetry {
   padding: 0;
   position: unset;
 }
+
+.callout {
+  &[data-callout="feat"] {
+    --color: #db8942;
+    --border: #db894244;
+    --bg: #db894210;
+    --callout-icon: var(--callout-icon-tip);
+  }
+}
+
+.callout {
+  &[data-callout="recent"] {
+    --color: var(--secondary);
+    --border: var(--lightgray);
+    --callout-icon: var(--callout-icon-abstract);
+  }
+}

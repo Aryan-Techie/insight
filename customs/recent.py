@@ -39,7 +39,7 @@ def get_latest_posts(limit=5):
 def update_index_md(limit=5):
     posts = get_latest_posts(limit)
     recent_md = "\n".join([
-    "> [!abstract] Recent Posts"
+    "> [!recent] Recent Posts"
 ] + [
     f" > - [{title}](/posts/{slugify(Path(file).stem)})"
     for _, file, title in posts
