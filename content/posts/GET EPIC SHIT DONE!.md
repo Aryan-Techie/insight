@@ -30,6 +30,8 @@ showBacklinks: true
 
 [[systems]]  [[A Note on Desires]]
 
+# hi
+## h3
 
 1. **Take Action Over Planning**:
     
@@ -248,7 +250,7 @@ For them, you should get an Engineer, Doctor, or CA degree because that’s what
 Now, if you want to become a YouTuber, Blogger, or start a business then first, show them how you gonna do it or better, if one of your friends is running a business then bring him to your home and let your parent ask questions.
 
 Even after that, if your parent doesn’t agree with your goals then the final step is to ask for time,
-
+![[dl91fm.png]]
 Told them _“Give_ me 2 years’ time” and let me prove to you that, I will do it, and if after 2 years, I fail then I will do whatever you’re asking me to do.
 
 **the story,**

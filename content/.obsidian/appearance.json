@@ -1,1 +1,19 @@
-{}
+{
+  "accentColor": "",
+  "textFontFamily": "Courier New",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "cssTheme": "Vanilla AMOLED Color",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Color Sidebar",
+    "dashboard",
+    "readable line length",
+    "table-outline"
+  ],
+  "monospaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "",
+  "showViewHeader": true,
+  "showRibbon": true
+}

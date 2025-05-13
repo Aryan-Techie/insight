@@ -18,10 +18,10 @@ by Aryan Techie :)
 
 <!-- start:featured -->
 > [!feat] Featured Post
-> ## [People Change When They ...](/posts/People%20change%20when%20they%20...)
-> *People change* when they ...
+> ## [Get Epic Shit Done!](/posts/GET%20EPIC%20SHIT%20DONE%21)
+> ![[Pasted image 20241103124931.png|150]]
 > 
-> [Read more →](/posts/People%20change%20when%20they%20...)
+> [Read more →](/posts/GET%20EPIC%20SHIT%20DONE%21)
 <!-- end:featured -->
 
 
@@ -29,7 +29,6 @@ by Aryan Techie :)
 > [!recent] Recent Posts
  > - [Power of Silence](/posts/Power%20of%20Silence)
  > - [GET EPIC SHIT DONE!](/posts/GET%20EPIC%20SHIT%20DONE%21)
- > - [People change when they ...](/posts/People%20change%20when%20they%20...)
  > - [The Hidden Power of Stillness](/posts/The%20Hidden%20Power%20of%20Stillness)
  > - [The Power of Systems Thinking](/posts/The%20Power%20of%20Systems%20Thinking)
 <!-- end:recent -->
@@ -51,13 +50,14 @@ This is the place where attention meets intention.
 
 ---
 
-## 📚 Explore by Topics
+## 🔍 Lens - Explore by Topics
 
-- 🧠 **Thinking Tools** – Models for better decision-making.
-- ⚙️ **Systems & Productivity** – Frameworks to work smarter.
-- 💻 **Tech & Code** – From tools to workflows.
-- ✒️ **Philosophy** – Questions that matter.
-- 🗃️ [**All Posts →**](/posts)
+- ✒️ **Catalyst** – Philosophy & Questions that matter.
+- 🧠 **Cortex** – Thinking tools, mental models towards clarity.
+- 🧭 **Compass** – Systems and workflows to navigate with purpose.
+- 💻 **Codex** – Notes on code, tools & tech. From tools to workflows.
+- 🗃️ **[Catalogue](/posts)** - View All Posts
+- 💙 **[About Me](/About-Me)** – Who am I.
 
 ---
 
@@ -67,7 +67,7 @@ This is the place where attention meets intention.
 Get new essays delivered straight to your inbox.  
 No spam, no noise. Just insight.
 
-[Subscribe →](https://blogs.aroice.in)
+[Subscribe →](https://blogs.aroice.in) (yup, it's FREE!)
 
 
 

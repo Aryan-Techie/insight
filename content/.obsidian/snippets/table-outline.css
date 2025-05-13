@@ -1,0 +1,26 @@
+.dataview.table-view-table :is(td, th) {
+  border: 1px solid;
+}
+
+.dataview.table-view-table th {
+  border-bottom: none;
+  color: #dcdcdc;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.dataview.table-view-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+
+
+.dataview.table-view-table td {
+  text-decoration: none; /* Remove the underline from the text */
+  color: #dcdcdc;
+  padding: 2.5px;
+}
+
