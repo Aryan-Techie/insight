@@ -78,10 +78,10 @@ def inject_featured_post():
         excerpt = excerpt or "_No excerpt available._"
 
         featured_md = f"""> [!feat] Featured Post
-> ## [{title}](/Posts/{quote(slug)})
+> ## [{title}](/posts/{quote(slug)})
 > {excerpt}
 > 
-> [Read more →](/Posts/{quote(slug)})"""
+> [Read more →](/posts/{quote(slug)})"""
 
     pattern = re.compile(r"<!-- start:featured -->(.*?)<!-- end:featured -->", re.DOTALL)
     new_block = f"<!-- start:featured -->\n{featured_md}\n<!-- end:featured -->"

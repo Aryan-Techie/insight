@@ -18,20 +18,20 @@ by Aryan Techie :)
 
 <!-- start:featured -->
 > [!feat] Featured Post
-> ## [People Change When They ...](/Posts/People%20change%20when%20they%20...)
+> ## [People Change When They ...](/posts/People%20change%20when%20they%20...)
 > *People change* when they ...
 > 
-> [Read more →](/Posts/People%20change%20when%20they%20...)
+> [Read more →](/posts/People%20change%20when%20they%20...)
 <!-- end:featured -->
 
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [Power of Silence](/Posts/power-of-silence)
- > - [GET EPIC SHIT DONE!](/Posts/get-epic-shit-done!)
- > - [People change when they ...](/Posts/people-change-when-they-...)
- > - [The Hidden Power of Stillness](/Posts/the-hidden-power-of-stillness)
- > - [The Power of Systems Thinking](/Posts/the-power-of-systems-thinking)
+ > - [Power of Silence](/posts/power-of-silence)
+ > - [GET EPIC SHIT DONE!](/posts/get-epic-shit-done!)
+ > - [People change when they ...](/posts/people-change-when-they-...)
+ > - [The Hidden Power of Stillness](/posts/the-hidden-power-of-stillness)
+ > - [The Power of Systems Thinking](/posts/the-power-of-systems-thinking)
 <!-- end:recent -->
 ---
 

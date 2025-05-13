@@ -41,7 +41,7 @@ def update_index_md(limit=5):
     recent_md = "\n".join([
     "> [!recent] Recent Posts"
 ] + [
-    f" > - [{title}](/Posts/{slugify(Path(file).stem)})"
+    f" > - [{title}](/posts/{slugify(Path(file).stem)})"
     for _, file, title in Posts
 ])
 
