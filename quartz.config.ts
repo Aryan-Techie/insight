@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "insight.aroice.in",
-    ignorePatterns: ["Private", "Templates", ".obsidian", ".trash"],
+    ignorePatterns: ["Private", "templates", "Templates", ".obsidian", ".trash"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
