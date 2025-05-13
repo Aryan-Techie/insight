@@ -8,8 +8,10 @@ POSTS_DIR = ROOT / "content" / "Posts"
 INDEX_PATH = ROOT / "content" / "index.md"
 
 # Slugify helper
-def slugify(name: str) -> str:
-    return name.lower().replace(" ", "-")
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)
+    return re.sub(r"[\s_]+", "-", text).strip("-")
 
 # Get latest Posts (title from line 1 or filename fallback)
 def get_latest_Posts(limit=5):
@@ -41,7 +43,7 @@ def update_index_md(limit=5):
     recent_md = "\n".join([
     "> [!recent] Recent Posts"
 ] + [
-    f" > - [{title}](/posts/{slugify(Path(file).stem)})"
+    f" > - [{title}](/posts/{slugify(file.split('.')[0])})"
     for _, file, title in Posts
 ])
 
