@@ -4,8 +4,8 @@ Links: https://www.mediafire.com/file/rx500i3e78prj3n/GET_EPIC_SH%2AT_DONE_-_BOO
 tags:
   - books
 From: "[[Ankur Warikoo]]"
-featured: true
----
+featured: false
+showBacklinks: true
 ---
 
 ![[Pasted image 20241103124931.png|150]]
@@ -27,6 +27,9 @@ featured: true
 >     - A reminder that waiting for things to be perfect can hold you back from making real strides forward.
 
 ### Key Takeaways
+
+[[systems]]  [[A Note on Desires]]
+
 
 1. **Take Action Over Planning**:
     
@@ -352,4 +355,3 @@ Just don’t think about, what will happen in 10 minutes. That 10 minutes will p
 
 “Writing daily is not just for writers. It is for communicators who wish to express themselves better.” – **Ankur Warikoo**
 
----

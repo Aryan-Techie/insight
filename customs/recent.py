@@ -4,17 +4,17 @@ from datetime import datetime
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-POSTS_DIR = ROOT / "content" / "posts"
+POSTS_DIR = ROOT / "content" / "Posts"
 INDEX_PATH = ROOT / "content" / "index.md"
 
 # Slugify helper
 def slugify(name: str) -> str:
     return name.lower().replace(" ", "-")
 
-# Get latest posts (title from line 1 or filename fallback)
-def get_latest_posts(limit=5):
-    posts = []
-    for post_file in POSTS_DIR.glob("*.md"):
+# Get latest Posts (title from line 1 or filename fallback)
+def get_latest_Posts(limit=5):
+    Posts = []
+    for post_file in POSTS_DIR.rglob("*.md"):
         try:
             content = post_file.read_text(encoding="utf-8")
             lines = content.splitlines()
@@ -28,21 +28,21 @@ def get_latest_posts(limit=5):
                     title = line.split(":", 1)[1].strip()
                     break
             date = post_file.stat().st_mtime  # Use last modified time
-            posts.append((date, post_file.name, title))
+            Posts.append((date, post_file.name, title))
         except Exception as e:
             print(f"⚠️ Error reading {post_file.name}: {e}")
-    posts.sort(reverse=True)
-    return posts[:limit] if limit else posts
+    Posts.sort(reverse=True)
+    return Posts[:limit] if limit else Posts
 
 
-# Inject recent posts into index.md using markers
+# Inject recent Posts into index.md using markers
 def update_index_md(limit=5):
-    posts = get_latest_posts(limit)
+    Posts = get_latest_Posts(limit)
     recent_md = "\n".join([
     "> [!recent] Recent Posts"
 ] + [
-    f" > - [{title}](/posts/{slugify(Path(file).stem)})"
-    for _, file, title in posts
+    f" > - [{title}](/Posts/{slugify(Path(file).stem)})"
+    for _, file, title in Posts
 ])
 
 
@@ -62,7 +62,7 @@ def update_index_md(limit=5):
         content += f"\n\n{block}"
 
     INDEX_PATH.write_text(content.strip() + "\n", encoding="utf-8")
-    print("✅ index.md updated with latest posts.")
+    print("✅ index.md updated with latest Posts.")
 
 # Run
 import sys

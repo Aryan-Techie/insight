@@ -1,30 +1,54 @@
 ---
-title: Welcome to Insight
-description: Insights into tech, systems, and intentional living. Read. Think. Build.
+title: The Insight @ Aroice
+description: Vision into tech, systems, and intentional living. Read. Think. Build.
 ---
+## Welcome
 
+<!-- header image -->
+<!-- <img class="theme-toggle-img" width="701" alt="Insight Logo" /> -->
 
-> **Distilling clarity in a world of noise.**  
-> A digital garden by [@realaroice](https://x.com/realaroice) exploring systems, tools, and thoughts for living and building with intent.
+<!-- # Insight -->
+_Built for those who seek clarity in a chaotic world._
 
+Explore systems, tools, and mental models to build and live with intent.
+```poetry
+by Aryan Techie :)
+```
 ---
 
 <!-- start:featured -->
-> [!feat] Featured 
- > ## [Get Epic Shit Done!](/posts/GET%20EPIC%20SHIT%20DONE%21)
- > The book is divided into 4 parts and in total, it has 36 chapters or you can say, it answered the 36 questions.
-  > [Read more →](/posts/GET%20EPIC%20SHIT%20DONE%21)
+> [!feat] Featured Post
+> ## [People Change When They ...](/Posts/People%20change%20when%20they%20...)
+> *People change* when they ...
+> 
+> [Read more →](/Posts/People%20change%20when%20they%20...)
 <!-- end:featured -->
 
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [GET EPIC SHIT DONE!](/posts/get-epic-shit-done!)
- > - [The Hidden Power of Stillness](/posts/the-hidden-power-of-stillness)
- > - [People change when they ...](/posts/people-change-when-they-...)
- > - [Deep Work vs Flow](/posts/deep-work)
- > - [The Power of Systems Thinking](/posts/the-power-of-systems-thinking)
+ > - [Power of Silence](/Posts/power-of-silence)
+ > - [GET EPIC SHIT DONE!](/Posts/get-epic-shit-done!)
+ > - [People change when they ...](/Posts/people-change-when-they-...)
+ > - [The Hidden Power of Stillness](/Posts/the-hidden-power-of-stillness)
+ > - [The Power of Systems Thinking](/Posts/the-power-of-systems-thinking)
 <!-- end:recent -->
+---
+
+## 🛠️ What is Insight?
+
+Insight is a space for those who seek clarity - <br> through new ideas, tools, and perspectives.
+
+It’s where I share what I learn, what shifts my thinking, and what I believe is worth your time.
+
+I’m here to contribute - to leave behind something meaningful. <br>
+Because time is limited. Noise is endless.
+
+This is the place where attention meets intention.
+
+> [!quote] 
+> “Clarity is the result of conscious subtraction.” — Insight Philosophy
+
 ---
 
 ## 📚 Explore by Topics
@@ -37,34 +61,28 @@ description: Insights into tech, systems, and intentional living. Read. Think. B
 
 ---
 
-## 🛠️ What is Insight?
-
-Insight is a journal, not a newsletter.  
-It’s a space for slow ideas — distilled over time, meant to be reread, referenced, and built upon.
-
-- No noise. No FOMO. No dopamine hooks.
-- Just thoughts worth your time.
-
-> “Clarity is the result of conscious subtraction.” — Insight Philosophy
-
----
 
 ## 📬 Subscribe
 
 Get new essays delivered straight to your inbox.  
 No spam, no noise. Just insight.
 
-[Subscribe →](https://buttondown.email/insight)
+[Subscribe →](https://blogs.aroice.in)
+
+
 
 ---
 
-## 🔗 Elsewhere
+## 🔮 Portals - beyond Insight
 
-- 🧠 Main Site: [aroice.in](https://aroice.in)
-- ✍️ Blog Archive: [insight.aroice.in/posts](https://insight.aroice.in/posts)
-- 🎥 YouTube: [@Aroice](https://youtube.com/@Aroice)
-- 🧵 Twitter: [@realaroice](https://x.com/realaroice)
+- 🌐 Home Site: [aroice.in](https://aroice.in)
+- 🎬 YouTube: [@Aroice](https://youtube.com/@Aroice)
+- 🐦 𝕏 (Twitter): [@realaroice](https://x.com/realaroice)
+- 💼 LinkedIn: [@realaroice](https://x.com/realaroice)
+- 💌 Mail: [@realaroice](https://x.com/realaroice)
 
 ---
 
-> Built with 🧠 Quartz, 🤖 Automation, and ✍️ Intention.
+```poetry
+Peace.
+```

@@ -1,6 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { version } from "../../package.json"
+// import { version } from "../../package.json" ->commented due to unused
 import { i18n } from "../i18n"
 
 interface Options {

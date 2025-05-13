@@ -13,3 +13,18 @@ footer {
     margin-top: -1rem;
   }
 }
+
+// Hide the default HR before footer and replace with your custom separator
+article + hr {
+  display: none;
+}
+
+article:after {
+  content: "✦ ✧ ✦";
+  display: block;
+  text-align: center;
+  margin: 0.5em auto;
+  margin-bottom: 0.1em;
+  font-size: 1.5em;
+  color: var(--gray);
+}
