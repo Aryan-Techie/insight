@@ -1,6 +1,0 @@
-
-
-
-
-[[Power of Silence]]
-
