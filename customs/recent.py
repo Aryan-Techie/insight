@@ -30,12 +30,12 @@ def get_latest_Posts(limit=5):
                     title = line.split(":", 1)[1].strip()
                     break
             date = post_file.stat().st_mtime  # Use last modified time
-            Posts.append((date, post_file.name, title))
+            # Store the original stem (without lowercasing)
+            Posts.append((date, post_file.stem, title))  # Changed from post_file.name to post_file.stem
         except Exception as e:
             print(f"⚠️ Error reading {post_file.name}: {e}")
     Posts.sort(reverse=True)
     return Posts[:limit] if limit else Posts
-
 
 # Inject recent Posts into index.md using markers
 def update_index_md(limit=5):
@@ -43,10 +43,10 @@ def update_index_md(limit=5):
     recent_md = "\n".join([
     "> [!recent] Recent Posts"
 ] + [
-    f" > - [{title}](/posts/{slugify(Path(file).stem)})"
+    # Use file directly since we're already storing the stem, and keep original case
+    f" > - [{title}](/posts/{file})"  
     for _, file, title in Posts
 ])
-
 
     block = f"<!-- start:recent -->\n{recent_md}\n<!-- end:recent -->"
 
