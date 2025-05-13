@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 from datetime import datetime
 import sys
+from urllib.parse import quote  # Add this import at the top
 
 ROOT = Path(__file__).resolve().parents[1]
 POSTS_DIR = ROOT / "content" / "Posts"
@@ -43,8 +44,8 @@ def update_index_md(limit=5):
     recent_md = "\n".join([
     "> [!recent] Recent Posts"
 ] + [
-    # Use file directly since we're already storing the stem, and keep original case
-    f" > - [{title}](/posts/{file})"  
+    # Use URL encoding to handle spaces and special characters
+    f" > - [{title}](/posts/{quote(file)})"  
     for _, file, title in Posts
 ])
 

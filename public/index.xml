@@ -6,23 +6,29 @@
       <description>Last 10 notes on INSIGHT</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>{{title}}</title>
+    <link>https://insight.aroice.in/.trash/NEW-SERVER-REQ</link>
+    <guid>https://insight.aroice.in/.trash/NEW-SERVER-REQ</guid>
+    <description>{{short summary or teaser sentence}}</description>
+    <pubDate>Tue, 13 May 2025 11:31:41 GMT</pubDate>
+  </item><item>
     <title>The Insight @ Aroice</title>
     <link>https://insight.aroice.in/</link>
     <guid>https://insight.aroice.in/</guid>
     <description>Vision into tech, systems, and intentional living. Read. Think. Build.</description>
-    <pubDate>Tue, 13 May 2025 11:21:22 GMT</pubDate>
-  </item><item>
-    <title>life</title>
-    <link>https://insight.aroice.in/life</link>
-    <guid>https://insight.aroice.in/life</guid>
-    <description>Power of Silence.</description>
-    <pubDate>Tue, 13 May 2025 11:00:13 GMT</pubDate>
+    <pubDate>Tue, 13 May 2025 11:31:40 GMT</pubDate>
   </item><item>
     <title>Power of Silence</title>
     <link>https://insight.aroice.in/Posts/Power-of-Silence</link>
     <guid>https://insight.aroice.in/Posts/Power-of-Silence</guid>
     <description> Quote “The most dangerous person is the one who listens, thinks, and observes” Key Learnings: Law #4 from Robert Greene’s “48 Laws of Power” emphasizes saying less than necessary.</description>
     <pubDate>Tue, 13 May 2025 10:56:30 GMT</pubDate>
+  </item><item>
+    <title>&lt;% tp.file.title %&gt;</title>
+    <link>https://insight.aroice.in/Templates/New-Note</link>
+    <guid>https://insight.aroice.in/Templates/New-Note</guid>
+    <description>One-liner insight or summary of this idea.</description>
+    <pubDate>Tue, 13 May 2025 10:46:19 GMT</pubDate>
   </item><item>
     <title>GET EPIC SHIT DONE!</title>
     <link>https://insight.aroice.in/Posts/GET-EPIC-SHIT-DONE!</link>
@@ -47,6 +53,18 @@
     <guid>https://insight.aroice.in/Posts/The-Power-of-Systems-Thinking</guid>
     <description>In a world overflowing with information and options, systems thinking gives us the edge to zoom out and see the big picture.</description>
     <pubDate>Sat, 03 May 2025 11:35:10 GMT</pubDate>
+  </item><item>
+    <title>Pasted image 20241103124931.png</title>
+    <link>https://insight.aroice.in/.trash/Pasted-image-20241103124931.png</link>
+    <guid>https://insight.aroice.in/.trash/Pasted-image-20241103124931.png</guid>
+    <description></description>
+    <pubDate>Fri, 02 May 2025 10:11:26 GMT</pubDate>
+  </item><item>
+    <title>Untitled</title>
+    <link>https://insight.aroice.in/.trash/Untitled</link>
+    <guid>https://insight.aroice.in/.trash/Untitled</guid>
+    <description></description>
+    <pubDate>Fri, 02 May 2025 10:11:26 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -27,11 +27,11 @@ by Aryan Techie :)
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [Power of Silence](/posts/Power of Silence)
- > - [GET EPIC SHIT DONE!](/posts/GET EPIC SHIT DONE!)
- > - [People change when they ...](/posts/People change when they ...)
- > - [The Hidden Power of Stillness](/posts/The Hidden Power of Stillness)
- > - [The Power of Systems Thinking](/posts/The Power of Systems Thinking)
+ > - [Power of Silence](/posts/Power%20of%20Silence)
+ > - [GET EPIC SHIT DONE!](/posts/GET%20EPIC%20SHIT%20DONE%21)
+ > - [People change when they ...](/posts/People%20change%20when%20they%20...)
+ > - [The Hidden Power of Stillness](/posts/The%20Hidden%20Power%20of%20Stillness)
+ > - [The Power of Systems Thinking](/posts/The%20Power%20of%20Systems%20Thinking)
 <!-- end:recent -->
 ---
 
