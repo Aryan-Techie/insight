@@ -6,12 +6,6 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "editor:toggle-highlight",
-      "icon": "lucide-highlighter",
-      "name": "Toggle highlight",
-      "mode": "any"
-    },
-    {
       "id": "editor:insert-table",
       "icon": "lucide-table",
       "name": "Insert table",
@@ -27,12 +21,6 @@
       "id": "workspace:show-trash",
       "icon": "lucide-trash-2",
       "name": "Show trash",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:export-pdf",
-      "icon": "lucide-file-bar-chart",
-      "name": "Export to PDF...",
       "mode": "any"
     },
     {

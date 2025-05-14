@@ -1,7 +1,7 @@
 {
-  "accentColor": "",
-  "textFontFamily": "Courier New",
-  "baseFontSize": 18,
+  "accentColor": "#2b7dd4",
+  "textFontFamily": "Lora",
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "cssTheme": "Vanilla AMOLED Color",
@@ -13,7 +13,7 @@
     "table-outline"
   ],
   "monospaceFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Spectral",
   "showViewHeader": true,
   "showRibbon": true
 }
