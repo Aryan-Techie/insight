@@ -19,16 +19,16 @@ by Aryan Techie :)
 
 <!-- start:featured -->
 > [!feat] Featured Post
-> ## [The Subtle Art Of Not Giving A Fuck](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
-> Created: May 29, 2024 9:00 PM
+> ## [New Aa](/Posts/New%20aa)
+> _No excerpt available._
 > 
-> [Read more →](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
+> [Read more →](/Posts/New%20aa)
 <!-- end:featured -->
 
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [The Subtle Art of Not Giving a Fuck](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
+ > - [New aa](/Posts/New%20aa)
 <!-- end:recent -->
 ---
 

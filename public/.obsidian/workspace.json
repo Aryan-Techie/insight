@@ -8,119 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd6e7b7846f454d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "ed7ca7348fc07278",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "f84c9346b2aaaca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/productivity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "productivity"
-            }
-          },
-          {
-            "id": "f6db1c21f81f1bb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lens/Catalyst.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Catalyst"
-            }
-          },
-          {
-            "id": "070f79a3faa0a67e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Posts/Power of Silence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Power of Silence"
-            }
-          },
-          {
-            "id": "b57af487bdc5cb04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Posts/GET EPIC SHIT DONE!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GET EPIC SHIT DONE!"
-            }
-          },
-          {
-            "id": "ee546eae9eccb053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lens/Cortex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cortex"
-            }
-          },
-          {
-            "id": "e50b428654da6ddf",
+            "id": "e942fb3d922afe91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Lens/Compass.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Compass"
             }
+          },
+          {
+            "id": "0884a027f2b63ff2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -152,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#books",
+                "query": "tag:#compass",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,12 +109,27 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ec8a6e7d989965da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Posts/The Subtle Art of Not Giving a Fuck.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The Subtle Art of Not Giving a Fuck"
+            }
+          },
+          {
             "id": "a9d43cbe03f9efe2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts/GET EPIC SHIT DONE!.md",
+                "file": "Posts/The Subtle Art of Not Giving a Fuck.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,21 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GET EPIC SHIT DONE!"
-            }
-          },
-          {
-            "id": "ff05781ac1db7850",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Posts/GET EPIC SHIT DONE!.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from GET EPIC SHIT DONE!"
+              "title": "Backlinks for The Subtle Art of Not Giving a Fuck"
             }
           },
           {
@@ -234,66 +156,69 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "ec8a6e7d989965da",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "A Note on Desires.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of A Note on Desires"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 288.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
-      "callout-manager:Insert Callout": false
+      "ribbon-divider:ribbon-divider-c294c737-2b2f-4630-9f1a-b867e454e6c9": false,
+      "templates:Insert template": false,
+      "ribbon-divider:ribbon-divider-c16f1e59-6c7f-42e5-878c-c85bab974b2f": false,
+      "cmdr:Insert table": false,
+      "callout-manager:Insert Callout": false,
+      "ribbon-divider:ribbon-divider-e4275a51-d41f-4418-b0fa-4a1b38790d21": false,
+      "cmdr:Toggle checkbox status": false,
+      "cmdr:Bullet List": false,
+      "cmdr:Toggle numbered list": false,
+      "cmdr:Toggle code": false,
+      "ribbon-divider:ribbon-divider-d4c4881d-2e76-427b-a54c-0bbbc4e73968": false,
+      "cmdr:Move current file to another folder": false,
+      "ribbon-divider:ribbon-divider-73fc2c0a-bede-4624-9c05-7b629e6241c7": false,
+      "cmdr:Open settings": false,
+      "cmdr:Show trash": false,
+      "ribbon-divider:ribbon-divider-ce50181e-fcda-440e-80a8-cb29ed29f1b9": false
     }
   },
-  "active": "b57af487bdc5cb04",
+  "active": "e942fb3d922afe91",
   "lastOpenFiles": [
-    "msedge_Do38WaowRv.png",
+    "Lens/Compass.md",
+    "Lens/Cortex.md",
+    "index.md",
+    "Lens/Catalyst.md",
+    "Templates/New Post.md",
+    "Posts/New aa.md",
+    "Private/Links.md",
+    "Media/avoidance-law.png",
+    "Media/backwards-law.png",
+    "Media/banner.jpg",
+    "Posts/The Subtle Art of Not Giving a Fuck.md",
+    "Media/The Subtle Art of Not Giving a Fuck-4.png",
+    "Media/highlights-2.jpg",
+    "Media/highlights.jpg",
+    "Posts/The Power of Systems Thinking.md",
+    "About Me.md",
+    "Posts/GET EPIC SHIT DONE!.md",
+    "Posts/Power of Silence.md",
+    "Untitled.canvas",
+    "Media/dl91fm.png",
     "Media/Pasted image 20241103124931.png",
     "Media/light-header copy.png",
     "Media/light-header.png",
-    "Media/index-header - Copy.png",
-    "Media/index-header-last.png",
-    "Media/index-header.png",
-    "Templates/New Post.md",
-    "Posts/Power of Silence.md",
     "Lens/Codex.md",
     "Posts/People change when they ....md",
-    "Lens/Compass.md",
-    "Lens/Cortex.md",
-    "Lens/Catalyst.md",
-    "About Me.md",
     "life.md",
-    "index.md",
     "Lens",
     "Private",
-    "Posts/The Power of Systems Thinking.md",
     "Posts/A Note on Desires.md",
     "systems.md",
-    "Posts/GET EPIC SHIT DONE!.md",
     "new.md",
     "posts/tweet/Untitled.md",
     "posts/A Note on Desires.md",
@@ -303,19 +228,13 @@
     "posts/The Power of Systems Thinking.md",
     "posts/zeti/Power of Silence.md",
     "posts/tweet/deep work.md",
-    "posts/tweet/ultra.md",
     "posts/zeti",
     "posts/tweet/ultra",
     "posts/tweet",
     "media/light-header.png.~tmp",
     "media/index-header.png.~tmp",
-    "media/light-header.png",
-    "media/light-header copy.png",
     "media/light-header - Copy.png~RF5a65f4d.TMP",
     "media/light-header - Copy.png.~tmp",
-    "media/index-header - Copy.png",
-    "media/light-header - Copy.png",
-    "media/index-header.png~RF5598d78.TMP",
-    "posts/the-hidden-power-of-stillness.md"
+    "media/index-header.png~RF5598d78.TMP"
   ]
 }

@@ -45,7 +45,7 @@ def update_index_md(limit=5):
     "> [!recent] Recent Posts"
 ] + [
     # Use URL encoding to handle spaces and special characters
-    f" > - [{title}](/posts/{quote(file)})"  
+    f" > - [{title}](/Posts/{quote(file)})"  
     for _, file, title in Posts
 ])
 

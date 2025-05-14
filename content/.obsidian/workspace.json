@@ -8,35 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd6e7b7846f454d7",
+            "id": "e942fb3d922afe91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Lens/Compass.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Compass"
             }
           },
           {
-            "id": "ed7ca7348fc07278",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "f84c9346b2aaaca4",
+            "id": "0884a027f2b63ff2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,133 +40,8 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
-          },
-          {
-            "id": "f6db1c21f81f1bb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lens/Catalyst.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Catalyst"
-            }
-          },
-          {
-            "id": "070f79a3faa0a67e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Posts/Power of Silence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Power of Silence"
-            }
-          },
-          {
-            "id": "b57af487bdc5cb04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Posts/Power of Silence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Power of Silence"
-            }
-          },
-          {
-            "id": "ee546eae9eccb053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "About Me.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "About Me"
-            }
-          },
-          {
-            "id": "84e7675ec728a349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Posts/The Subtle Art of Not Giving a Fuck.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "The Subtle Art of Not Giving a Fuck"
-            }
-          },
-          {
-            "id": "e50b428654da6ddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lens/Compass.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Compass"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#compass",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -316,33 +187,33 @@
       "ribbon-divider:ribbon-divider-ce50181e-fcda-440e-80a8-cb29ed29f1b9": false
     }
   },
-  "active": "84e7675ec728a349",
+  "active": "e942fb3d922afe91",
   "lastOpenFiles": [
-    "Media/The Subtle Art of Not Giving a Fuck-4.png",
+    "Lens/Compass.md",
+    "Lens/Cortex.md",
+    "index.md",
+    "Lens/Catalyst.md",
+    "Templates/New Post.md",
+    "Posts/New aa.md",
+    "Private/Links.md",
     "Media/avoidance-law.png",
     "Media/backwards-law.png",
+    "Media/banner.jpg",
+    "Posts/The Subtle Art of Not Giving a Fuck.md",
+    "Media/The Subtle Art of Not Giving a Fuck-4.png",
     "Media/highlights-2.jpg",
     "Media/highlights.jpg",
-    "Private/Links.md",
-    "Posts/The Subtle Art of Not Giving a Fuck.md",
-    "index.md",
     "Posts/The Power of Systems Thinking.md",
-    "Media/banner.jpg",
     "About Me.md",
     "Posts/GET EPIC SHIT DONE!.md",
     "Posts/Power of Silence.md",
-    "Templates/New Post.md",
-    "Lens/Cortex.md",
-    "Lens/Catalyst.md",
     "Untitled.canvas",
     "Media/dl91fm.png",
     "Media/Pasted image 20241103124931.png",
     "Media/light-header copy.png",
     "Media/light-header.png",
-    "Media/index-header - Copy.png",
     "Lens/Codex.md",
     "Posts/People change when they ....md",
-    "Lens/Compass.md",
     "life.md",
     "Lens",
     "Private",
