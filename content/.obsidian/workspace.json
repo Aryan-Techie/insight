@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lens/Compass.md",
+                "file": "Posts/Coming Soon..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Compass"
+              "title": "Coming Soon."
             }
           },
           {
@@ -189,12 +189,12 @@
   },
   "active": "e942fb3d922afe91",
   "lastOpenFiles": [
+    "index.md",
     "Lens/Compass.md",
     "Lens/Cortex.md",
-    "index.md",
     "Lens/Catalyst.md",
     "Templates/New Post.md",
-    "Posts/New aa.md",
+    "Posts/Coming Soon..md",
     "Private/Links.md",
     "Media/avoidance-law.png",
     "Media/backwards-law.png",

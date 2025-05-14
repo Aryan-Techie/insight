@@ -19,16 +19,16 @@ by Aryan Techie :)
 
 <!-- start:featured -->
 > [!feat] Featured Post
-> ## [New Aa](/Posts/New%20aa)
-> _No excerpt available._
+> ## [Coming Soon.](/Posts/Coming%20Soon.)
+> posts are on the way....
 > 
-> [Read more →](/Posts/New%20aa)
+> [Read more →](/Posts/Coming%20Soon.)
 <!-- end:featured -->
 
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [New aa](/Posts/New%20aa)
+ > - [Coming Soon.](/Posts/Coming%20Soon.)
 <!-- end:recent -->
 ---
 
