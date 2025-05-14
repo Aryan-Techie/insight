@@ -1,8 +1,9 @@
 ---
-title: The Insight @ Aroice
+title: The Insight Journal
 description: Vision into tech, systems, and intentional living. Read. Think. Build.
+cover: '"/media/banner.jpg"'
 ---
-## Welcome
+<!-- ## %% Welcome %% -->
 
 <!-- header image -->
 <!-- <img class="theme-toggle-img" width="701" alt="Insight Logo" /> -->
