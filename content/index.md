@@ -19,19 +19,16 @@ by Aryan Techie :)
 
 <!-- start:featured -->
 > [!feat] Featured Post
-> ## [Get Epic Shit Done!](/posts/GET%20EPIC%20SHIT%20DONE%21)
-> ![[Pasted image 20241103124931.png|150]]
+> ## [The Subtle Art Of Not Giving A Fuck](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
+> Created: May 29, 2024 9:00 PM
 > 
-> [Read more →](/posts/GET%20EPIC%20SHIT%20DONE%21)
+> [Read more →](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
 <!-- end:featured -->
 
 
 <!-- start:recent -->
 > [!recent] Recent Posts
- > - [Power of Silence](/posts/Power%20of%20Silence)
- > - [GET EPIC SHIT DONE!](/posts/GET%20EPIC%20SHIT%20DONE%21)
- > - [The Hidden Power of Stillness](/posts/The%20Hidden%20Power%20of%20Stillness)
- > - [The Power of Systems Thinking](/posts/The%20Power%20of%20Systems%20Thinking)
+ > - [The Subtle Art of Not Giving a Fuck](/posts/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fuck)
 <!-- end:recent -->
 ---
 
