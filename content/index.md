@@ -1,7 +1,7 @@
 ---
 title: The Insight Journal
 description: Vision into tech, systems, and intentional living. Read. Think. Build.
-cover: '"/media/banner.jpg"'
+cover: https://insight.aroice.in/media/banner.jpg
 ---
 <!-- ## %% Welcome %% -->
 
