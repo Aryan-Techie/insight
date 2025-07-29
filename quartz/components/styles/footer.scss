@@ -1,0 +1,30 @@
+footer {
+  text-align: left;
+  margin-bottom: 4rem;
+  opacity: 0.7;
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -1rem;
+  }
+}
+
+// Hide the default HR before footer and replace with your custom separator
+article + hr {
+  display: none;
+}
+
+article:after {
+  content: "✦ ✧ ✦";
+  display: block;
+  text-align: center;
+  margin: 0.5em auto;
+  margin-bottom: 0.1em;
+  font-size: 1.5em;
+  color: var(--gray);
+}

@@ -1,0 +1,124 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+// custom poetry style
+pre.poetry {
+  font-size: 1.2rem;
+  font-family: 'Lavishly Yours', 'Alex Brush', 'biro_script_standardRgus','Brush Script MT';
+  border: none;
+  padding: 0;
+  position: unset;
+}
+
+// custom callouts
+
+// featured callout - custom
+.callout {
+  &[data-callout="feat"] {
+    --color: #db8942;
+    --border: #db894244;
+    --bg: #db894210;
+    --callout-icon: var(--callout-icon-tip);
+  }
+}
+
+// recent callout - custom
+.callout {
+  &[data-callout="recent"] {
+    --color: #00bfa5;
+    --border: #00bfa544;
+    --bg: #00bfa510;
+    --callout-icon: url("data:image/svg+xml,%3Csvg class='w-%5B47px%5D h-%5B47px%5D text-gray-800 dark:text-white' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath stroke='currentColor' stroke-linecap='round' stroke-width='2' d='m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z'/%3E%3C/svg%3E%0A");
+  }
+}
+
+// HR - HORIZONTAL RULE STYLE - custom
+// hr {
+//   overflow: visible;
+//   padding: 0;
+//   height: 0;
+//   margin: 2em auto;
+//   border: none;
+//   text-align: center;
+//   width: 100%;
+
+//   &:after {
+//     content: "✦ ✧ ✦";
+//     display: inline-block;
+//     margin: -1em 0 0.5em;
+//     font-size: 1.5em;
+//     padding: 0.5em 1em;
+//     color: var(--gray);
+//   }
+// }
+
+// header img
+
+img[src*="index-header.png"] {
+  opacity: 0.9;
+}
+
+// Header image theme switching
+.theme-toggle-img {
+  // Default image for dark mode
+  content: url("../media/index-header.png");
+}
+
+// Light mode version
+html[saved-theme="light"] .theme-toggle-img {
+  content: url("../media/light-header.png");
+}
+
+// Dark mode version (explicitly set for clarity)
+html[saved-theme="dark"] .theme-toggle-img {
+  content: url("../media/index-header.png");
+}
+
+
+
+
+// disable date & reading time on index.md
+body[data-slug="index"] .content-meta {
+  display: none;
+}
+
+// Alternative approach: use !important to override any competing styles
+body.page-index .content-meta {
+  display: none !important;
+}
+
+
+// NEW ELEMENT SR TAG - THE CUSTOM TAG - alike HR
+
+// Custom section rule (sr) element
+sr {
+  display: block;
+  overflow: visible;
+  padding: 0;
+  height: 0;
+  margin: 2em auto;
+  border: none;
+  text-align: center;
+  width: 100%;
+
+  &:after {
+    content: "✦ ✧ ✦";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    color: var(--gray);
+  }
+}
+
+// Restore regular HR to default or simple styling
+hr {
+  border: 0;
+  border-top: 1px solid var(--lightgray);
+  margin: 2em 0;
+  height: 1px;
+}
+
+
+// more customs
+

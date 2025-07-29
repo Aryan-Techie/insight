@@ -1,0 +1,52 @@
+node_modules/
+.stfolder
+.obsidian/
+
+# Quartz/Static Site/General
+public/
+publish/
+.DS_Store
+*.log
+.env
+.env.*
+dist/
+cache/
+.cache/
+.quartz/
+quartz.db
+*.local
+*.swp
+*.tmp
+*.bak
+.vscode/
+.idea/
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Quartz Cache
+.quartz-cache/
+
+# Build output
+dist/
+build/
+publish/   # Only if it's a generated output
+
+# Environment files
+.env
+*.local
+
+# System files
+.stfolder
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
