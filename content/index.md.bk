@@ -15,19 +15,22 @@ Explore systems, tools, and mental models to build and live with intent.
 ```poetry
 by Aryan Techie :)
 ```
+---
 
-
-> [!danger] **A New Chapter Begins**
+<!-- start:featured -->
+> [!feat] Featured Post
+> ## [The Happiness Equation](/Posts/The%20Happiness%20Equation)
+> I was lying in bed scrolling through LinkedIn (bad habit, I know) when I saw a post about someone my age landing their "dream job." Instead of feeling inspired, I felt... disappointed? Not in them, but in myself for not being "there" yet.
 > 
-> _Thank you for being part of Insight's journey._
-> 
-> **This site is now an archive.** <br> Every post, every new idea, and all future writing will live on at:
-> [**aryantechie.com/blog**](https://aryantechie.com/blog)
-> 
-> Please join me there for fresh essays, tools, and reflections. Your curiosity and support mean everything, let's keep growing together.
+> [Read more →](/Posts/The%20Happiness%20Equation)
+<!-- end:featured -->
 
 
-
+<!-- start:recent -->
+> [!recent] Recent Posts
+ > - [The Happiness Equation](/Posts/The%20Happiness%20Equation)
+ > - [The Art of Not Reading](/Posts/The%20Art%20of%20Not%20Reading)
+<!-- end:recent -->
 ---
 
 ## 🛠️ What is Insight?
