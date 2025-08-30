@@ -24,6 +24,8 @@ by Aryan Techie :)
 > **This site is now an archive.** <br> Every post, every new idea, and all future writing will live on at:
 > [**aryantechie.com/blog**](https://aryantechie.com/blog)
 > 
+> The whole archive is here - 🗃️ **[Catalogue](/Posts)** - View All Posts
+> 
 > Please join me there for fresh essays, tools, and reflections. Your curiosity and support mean everything, let's keep growing together.
 
 
