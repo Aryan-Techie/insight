@@ -52,7 +52,7 @@ This is the place where attention meets intention.
 - 🧠 **Cortex** – Thinking tools, mental models towards clarity.
 - 🧭 **Compass** – Systems and workflows to navigate with purpose.
 - 💻 **Codex** – Notes on code, tools & tech. From tools to workflows.
-- 🗃️ **[Catalogue](/posts)** - View All Posts
+- 🗃️ **[Catalogue](/Posts)** - View All Posts
 - 💙 **[About Me](/About-Me)** – Who am I.
 
 ---
