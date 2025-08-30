@@ -53,3 +53,8 @@ Thumbs.db
 
 # cusotm
 .trash
+.stfolder.removed*
+
+# /setup-auto-import.sh
+# /import-rss.sh
+# /customs/posts_importer.py
