@@ -1,7 +1,7 @@
 ---
 title: "Work Silences The Mind"
 description: "Your overthinking brain isn't broken, it's just unemployed. Here's the counterintuitive science of why the right kind of work is the fastest path to mental peace."
-date: 2025-08-16
+date: "2025-08-16"
 author: Aryan Techie
 tags: ['Clarity']
 original_url: https://aryantechie.com/blog/work-silences-the-mind

@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "insight.aroice.in",
     ignorePatterns: ["Private", "private",  "templates", "Templates", ".obsidian", ".trash"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -58,7 +58,7 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.Poetry(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
+        priority: ["frontmatter", "filesystem", "git"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {

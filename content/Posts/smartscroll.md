@@ -1,7 +1,7 @@
 ---
 title: "Smart Scroll: When Hardware Becomes Smarter Than Its Design"
 description: "Why settle for single-purpose controls? Smart Scroll transforms your volume knob into an intelligent scroll wheel that knows exactly when you need it most."
-date: 2025-07-17
+date: "2025-07-17"
 author: Aryan Techie
 tags: ['work']
 original_url: https://aryantechie.com/work/smartscroll

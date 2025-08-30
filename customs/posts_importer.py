@@ -157,7 +157,7 @@ class RSSImporter:
         frontmatter = f"""---
 title: "{title}"
 description: "{description}"
-date: {date_str}
+date: "{date_str}"
 author: {author}
 tags: {categories}
 original_url: {original_url}

@@ -1,7 +1,7 @@
 ---
 title: "Men are Happiest When They Build Something"
 description: "True happiness doesn't come from consuming, it comes from building. We evolved to create, solve, and construct—yet modern life keeps us passive. Here's why picking up tools (physical or digital) and m..."
-date: 2025-08-29
+date: "2025-08-29"
 author: Aryan Techie
 tags: ['Clarity']
 original_url: https://aryantechie.com/blog/men-are-happiest-when-they-build-something

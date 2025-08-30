@@ -1,7 +1,7 @@
 ---
 title: "This Too Shall Pass"
 description: "The pain you're carrying right now? It's not permanent. But neither is the joy you're chasing. Here's what I'm learning about the brutal beauty of impermanence."
-date: 2025-08-06
+date: "2025-08-06"
 author: Aryan Techie
 tags: ['Reflection']
 original_url: https://aryantechie.com/blog/this-too-shall-pass

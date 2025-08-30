@@ -1,7 +1,7 @@
 ---
 title: "Ashes: When Your Browser Becomes a Mirror"
 description: "What happens when you replace empty new tabs with the most honest truth of all? Ashes transforms every browser new tab into a gentle reminder that your time here isn't infinite."
-date: 2025-07-20
+date: "2025-07-20"
 author: Aryan Techie
 tags: ['work']
 original_url: https://aryantechie.com/work/ashes

@@ -1,7 +1,7 @@
 ---
 title: "Designing Argon: Your Shield Against Digital Chaos"
 description: "When every website competes for your attention, how do you fight back? Argon transforms your browser into a fortress of focus with intelligent blocking, wellness reminders, and the tools to reclaim yo..."
-date: 2025-07-25
+date: "2025-07-25"
 author: Aryan Techie
 tags: ['work']
 original_url: https://aryantechie.com/work/argon

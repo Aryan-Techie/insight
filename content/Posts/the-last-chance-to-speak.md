@@ -1,7 +1,7 @@
 ---
 title: "The Last Chance to Speak"
 description: "You think you have time, but you don't. Here's what I learned about saying what matters before it's too late."
-date: 2025-08-02
+date: "2025-08-02"
 author: Aryan Techie
 tags: ['Reflection']
 original_url: https://aryantechie.com/blog/the-last-chance-to-speak
