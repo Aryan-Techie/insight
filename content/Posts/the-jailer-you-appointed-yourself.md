@@ -8,7 +8,7 @@ original_url: https://aryantechie.com/blog/the-jailer-you-appointed-yourself
 imported: true
 ---
 
-![The Jailer You Appointed Yourself](https://aryantechie.com/images/covers/12-perfect.png)
+![The Jailer You Appointed Yourself](https://aryantechie.com/images/covers/12-perfect.jpg)
 
 **Summary:** Three finished videos sit in my drafts folder, not because they're bad, but because they're not perfect. Here's how I stopped being my own jailer and why perfectionism is just addiction disguised as ambition.
 
