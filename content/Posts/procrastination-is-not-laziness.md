@@ -1,5 +1,5 @@
 ---
-title: "Procrastination Isn&#39;t Laziness"
+title: "Procrastination Isn't Laziness"
 description: "Why we'd rather live in the possibility of greatness than risk proving we're ordinary. Every night I know what works, yet I still delay. It's not about not knowing—it's about not wanting to face what ..."
 date: "2025-12-20"
 author: Aryan Techie
