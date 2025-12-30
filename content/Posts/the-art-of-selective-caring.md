@@ -3,7 +3,7 @@ title: "The Art of Selective Caring"
 description: "How Mark Manson's Law of Avoidance taught me to stop caring about approval and start caring about what actually matters. The one concept that changed everything."
 date: "2025-12-30"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Philosophy']
 original_url: https://aryantechie.com/blog/the-art-of-selective-caring
 imported: true
 ---
