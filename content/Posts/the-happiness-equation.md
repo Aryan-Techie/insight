@@ -3,7 +3,7 @@ title: "The Happiness Equation"
 description: "A 98-year-old billionaire's secret to happiness isn't what you'd expect. Here's why lowering your expectations might be the key to actually enjoying your life."
 date: "2025-07-28"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Clairty']
 original_url: https://aryantechie.com/blog/the-happiness-equation
 imported: true
 ---

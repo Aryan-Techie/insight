@@ -3,7 +3,7 @@ title: "Hope is the New Drug"
 description: "I used to think hope was beautiful until I realized it was keeping me addicted to a future that never comes. Here's why your optimism might be your biggest obstacle."
 date: "2025-07-31"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Clarity']
 original_url: https://aryantechie.com/blog/hope-is-the-new-drug
 imported: true
 ---

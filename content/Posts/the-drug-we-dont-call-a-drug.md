@@ -3,7 +3,7 @@ title: "The Drug We Don't Call a Drug"
 description: "When I could smell coffee in my urine, I knew it wasn't a habit anymore - it was an addiction. Here's what 182 days without caffeine taught me about dependency, control, and the invisible addictions w..."
 date: "2025-10-16"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Clairty']
 original_url: https://aryantechie.com/blog/the-drug-we-dont-call-a-drug
 imported: true
 ---

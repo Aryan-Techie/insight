@@ -3,7 +3,7 @@ title: "The Art of Not Reading"
 description: "I spent thousands of rupees on books last year and finished 8. Here's what my dusty bookshelf taught me about identity, intention, and the dopamine rush of false learning."
 date: "2025-07-25"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Identity']
 original_url: https://aryantechie.com/blog/the-art-of-not-reading
 imported: true
 ---

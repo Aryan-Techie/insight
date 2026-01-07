@@ -3,7 +3,7 @@ title: "The Weight of Open Loops"
 description: "I had 23 open loops draining my energy and didn't even know it. Every unfinished task, avoided conversation, and postponed decision was quietly stealing energy I could have used for anything else."
 date: "2025-12-08"
 author: Aryan Techie
-tags: ['Personal Growth']
+tags: ['Clarity']
 original_url: https://aryantechie.com/blog/the-weight-of-open-loops
 imported: true
 ---
